@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@300;400;500;700");
+
+body {
+  background-color: #06283D;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  color: #256D85;
+  font-size: 16px;
+  line-height: 1;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #47B5FF;
+  font-size: 24px;
+  line-height: 1;
+}
+
+a {
+  color: #47B5FF;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.card {
+  text-align: center;
+  background: #DFF6FF;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  margin: 10px auto;
+  border-radius: 3px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#socials {
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+#profile-pic {
+  width: 200px;
+  height: 200px;
+}
+
+#wagon-button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: #47B5FF;
+  color: #DFF6FF;
+  margin: 0 2rem;
+}
+
+#pigeon-pic {
+  border-radius: 4px;
+}
+
+#cher-pic {
+  width: 300px;
+}
+
+.trixie-gif {
+  width: 400px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
